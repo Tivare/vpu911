@@ -1,10 +1,12 @@
 #include<iostream>
 #include"sum.h"
+#include<ctime>
 #include"dif.h"
 using namespace std;
 
 int main()
 {
+	srand(time(0));
 	cout<<"Hello git"<<endl;
 	
 	int a, b;
