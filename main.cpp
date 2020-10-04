@@ -1,6 +1,7 @@
 #include<iostream>
 #include"sum.h"
 #include<ctime>
+#include"prod.h"
 #include"dif.h"
 using namespace std;
 
