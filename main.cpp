@@ -1,5 +1,6 @@
 #include<iostream>
 #include"sum.h"
+#include"dif.h"
 using namespace std;
 
 int main()
@@ -11,4 +12,7 @@ int main()
 	cin>>a>>b;
 	int res = Sum(a,b);
 	cout<<"Res = "<<res<<endl;
+	res = Dif(a,b);
+	cout<<"Res = "<<res<<endl;
+
 }
